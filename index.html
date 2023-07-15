@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhishek-Portfolio</title>
+
+    <!-- Google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Comme:wght@300&family=Inter:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- CSS link -->
+    <link rel="stylesheet" href="assest/css/style.css">
+
+    <!-- BOxicon link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="assest/css/style.js"></script>
+</head>
+<body>
+
+
+
+
+    <!-- Menubar icon -->
+    <label for="check"><i class='bx bx-menu'></i></label>
+    <input type="checkbox" id="check">
+
+    <!-- Float menubar start -->
+    <div class="menulist">
+        <h3>Menu</h3>
+        <ul class="list">
+            <a href="#home" id="active">
+                <li id=h><i class='bx bx-home' id="h1"></i>Home</li>
+            </a>
+            <a href="#about">
+                <li><i class='bx bx-user'></i>About</li>
+            </a>
+            <a href="#resume">
+                <li><i class='bx bxs-briefcase'></i>Resume</li>
+            </a>
+            <a href="#service">
+                <li><i class='bx bx-poll'></i>Service</li>
+            </a>
+            <a href="#skill">
+                <li><i class='bx bxs-shapes'></i>Skill</li>
+            </a>
+            <a href="#portfolio">
+                <li><i class='bx bx-grid-vertical'></i>Portfollio</li>
+            </a>
+            <a href="#testimonial">
+                <li><i class='bx bx-comment-dots'></i>Testimonials</li>
+            </a>
+            <a href="#contact">
+                <li><i class='bx bx-envelope'></i>Contact</li>
+            </a>
+        </ul>
+
+        <div class="social">
+            <p>Social</p>
+            <a href="https://instagram.com/abhishek_gupta0108?igshid=NGExMmI2YTkyZg==">
+                <i class='bx bxl-facebook'></i>
+            </a>
+            <a href="https://twitter.com/AmarGupta2501?t=YtT6BoPhiH_gTlU7dRP0qA&s=09">
+                <i class='bx bxl-twitter'></i>
+            </a>
+            <a href="https://instagram.com/abhishek_gupta0108?igshid=NGExMmI2YTkyZg==">
+                <i class='bx bxl-instagram-alt'></i>
+            </a>
+        </div>
+
+
+        <label for="check" class="cross"><i class='bx bx-x-circle'></i></label>
+
+    </div>
+    <!-- Float menubar end -->
+
+
+    <!-- Setting icon  start-->
+    <label for="setting"><i class='bx bx-cog setting-icon'></i></label>
+
+    <input type="checkbox" id="setting">
+    <div class="setting-box">
+        <h1>Configuration</h1>
+        <h5 class="color-head">COLORS</h5>
+        <div class="color-box">
+            <div class="color-outer">
+                <div class="color" style="background-color:  #28e98c;" onclick="colorGreen()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #ebd507;" onclick="colorYellow()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #e3530a;" onclick="colorOrange()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #0990f1;" onclick="colorSkyBlue()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #404442;" onclick="colorGray()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #0a1df1;" onclick="colorBlue()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #f50303;" onclick="colorRed()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+            <div class="color-outer">
+                <div class="color" style="background-color:  #e909da;" onclick="colorPink()">
+                    <div class="color-dot"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="TD-shape">
+            <h5 class="color-head">THREE DIMENSIONAL SHAPES</h5>
+            <div class="shapes-name-box">
+                <div class="shape-name">Earth Lines Sphere</div>
+                <div class="shape-name">3D Abstract Ball</div>
+                <div class="shape-name">Water Waves</div>
+                <div class="shape-name">Liquids Wavy</div>
+                <div class="shape-name">Solid Color</div>
+                <div class="shape-name">Simple Strings
+                </div>
+            </div>
+        </div>
+
+        <label for="setting" class="cross"><i class='bx bx-x-circle'></i></label>
+    </div>
+    <!-- Setting icon  end-->
+
+    <!--  Floating window start-->
+    <label class="overlap" for="check"></label>
+    <!-- Floating windo end -->
+
+
+    <!-- Start left sidebar -->
+    <div class="left-sec">
+        <div class="upper">
+            <h1>Abhishek
+                <sup>
+                    A
+                </sup>
+            </h1>
+            <h4>Web Designer & <br> Developer </h4>
+        </div>
+        <img src="assest/image/amar1.jpg" alt="">
+        <h2 class="email">
+            amar.guptaabhi@gmail.com
+        </h2>
+        <h2 class="address">
+            Base in Bhopal, INDIA
+        </h2>
+        <div class="copyrights">
+            © 2022 Drake. All Rights Reserved
+        </div>
+        <div class="socialmedia">
+            <a href="https://twitter.com/AmarGupta2501?t=YtT6BoPhiH_gTlU7dRP0qA&s=09">
+                <div class="box">
+                    <i class='bx bxl-twitter'></i>
+                </div>
+            </a>
+            <a href="https://www.linkedin.com/in/abhishek-amar-gupta-aa884a1a0">
+                <div class="box">
+                    <i class='bx bxl-linkedin'></i>
+                </div>
+            </a>
+            <a href="https://instagram.com/abhishek_gupta0108?igshid=NGExMmI2YTkyZg==">
+                <div class="box">
+                    <i class='bx bxl-instagram-alt'></i>
+                </div>
+            </a>
+            <a href="https://www.facebook.com/R0ylKing?mibextid=ZbWKwL">
+                <div class="box">
+                    <i class='bx bxl-facebook'></i>
+                </div>
+            </a>
+        </div>
+        <a href="mailto:amar.guptaabhi@gmail.com">
+            <button class="hire-btn" id="grn">
+                <i class='bx bx-envelope' id="grn1"></i>
+                HIRE ME!
+            </button>
+        </a>
+    </div>
+    <!-- End left side bar -->
+
+    <!-- Start main  -->
+    <div class="main-header">
+
+        <!-- Start indtoduce page -->
+        <div class="introduce snap" id="home">
+            <div class="intro-head">
+                <span class="introduce-icon">
+                    <i class='bx bx-home'></i>
+                    INTRODUCE
+                </span>
+            </div>
+
+            <h1>Say Hi from <span class="name" id="grn2">Abhishek</span>, Web Designer and Developer</h1>
+
+
+            <p>I design and code beautifully simple things and i love what i do. <br> Just simple like that!</p>
+
+            <div class="rotate">
+                <img src="assest/image/rotate.png" alt="">
+                <a href="#portfolio">
+                    <i class='bx bx-down-arrow-alt arrow'></i>
+                </a>
+            </div>
+
+
+            <div class="projects">
+                <div class="project-complete">
+                    <h1 id="grn3">3+</h1>
+                    <p>PROJECTS COMPLETED ON
+                        <br>
+                        Collage
+                    </p>
+                </div>
+                <div class="project-complete">
+                    <h1 id="grn4">2+</h1>
+                    <p>PROJECTS COMPLETED ON
+                        <br>
+                        Cybrom Technology
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <!-- End indtoduce page -->
+
+        <!-- Start about page -->
+        <div class="about snap" id="about">
+            <div class="about-head">
+                <span class="about-icon">
+                    <i class='bx bx-user'></i>
+                    ABOUT
+                </span>
+            </div>
+            <h1>Every great design begin with
+                an even <span class="name" id="grn5">
+                    better story
+                </span></h1>
+            <p>
+            <p>I’m a Btech fresher from [INDIA], I completed my B Tech from [VITS satna] in the year 2021 and I am
+                currently doing my internship at [Cybrom technology pvt ltd]. I’ve been waiting for opportunity to
+                step into the world of software
+                development. I have always been a problem solver and have always wanted to be an independent developer,
+                so i thinlk a dream will come true. I have working with the Python,C++,HTML,CSS language since the age
+                of 20 and have
+                learned many useful tips and tricks along the way.
+                During my time in class, I have learned about object-oriented programming and its applications in
+                real-life scenarios.</p>
+            </p>
+        </div>
+        <!-- End About page -->
+
+        <!-- Start resume page -->
+        <div class="resume snap" id="resume">
+            <div class="resume-head">
+                <span class="resume-icon">
+                    <i class='bx bxs-briefcase'></i>
+                    RESUME
+                </span>
+            </div>
+            <h1>Education & Experience</h1>
+            <div class="resume-timeline">
+                <div class="scroll-resume">
+                    <div class="line">
+                        <div class="resume-circle"></div>
+                        <div class="resume-line"></div>
+                    </div>
+                    <div class="date">
+                        <h4>2023 - Present</h4>
+                        <div class="cource">
+                            <h2>Python Full-Stack Development</h2>
+                            <h5>CYBROM TECHNOLOGY</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-resume">
+                    <div class="line">
+                        <div class="resume-circle"></div>
+                        <div class="resume-line"></div>
+                    </div>
+                    <div class="date">
+                        <h4>2017 - 2021</h4>
+                        <div class="cource">
+                            <h2>Graduation, B.tech(CSE)</h2>
+                            <h5>VITS SATNA</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-resume">
+                    <div class="line">
+                        <div class="resume-circle"></div>
+                        <div class="resume-line"></div>
+                    </div>
+                    <div class="date">
+                        <h4> 2015 - 2016</h4>
+                        <div class="cource">
+                            <h2>Higher School</h2>
+                            <h5>S.S.M.Hr.Sec. School Amarpatan</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="scroll-resume">
+                    <div class="line">
+                        <div class="resume-circle"></div>
+                        <div class="resume-line"></div>
+                    </div>
+                    <div class="date">
+                        <h4> 2013 - 2014</h4>
+                        <div class="cource">
+                            <h2>High School</h2>
+                            <h5>S.S.M.Hr.Sec. School Amarpatan</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End About page -->
+
+        <!-- Start Service page -->
+        <div class="service snap" id="service">
+            <div class="service-head">
+                <span class="service-icon">
+                    <i class='bx bx-poll'></i>
+                    SERVICE
+                </span>
+            </div>
+            <h1>My <span class="name" id="grn6">Specializations</span></h1>
+            <div class="special-box">
+                <div class="specilization">
+                    <h2>Website Design</h2>
+                    <p class="p">I created with unique ideas</p>
+                    <p class="count">2 PROJECTS</p>
+                </div>
+                <div class="specilization">
+                    <h2>Frontend design</h2>
+                    <p class="p">Hoste on netlify</p>
+                    <p class="count">2 PROJECTS</p>
+                </div>
+                <div class="specilization">
+                    <h2>Frontend design</h2>
+                    <p class="p">Hoste on netlify</p>
+                    <p class="count">2 PROJECTS</p>
+                </div>
+            </div>
+        </div>
+        <!-- End Service page -->
+
+        <!-- Start Skill page -->
+        <div class="skill snap" id="skill">
+            <div class="skill-head">
+                <span class="skill-icon">
+                    <i class='bx bxs-shapes'></i>
+                    SKILL
+                </span>
+            </div>
+            <h1>My <span class="name" id="grn7">Advantages</span></h1>
+
+            <div class="advantage">
+                <div class="outer-ad1">
+                    <div class="ad1">
+                        <i class='bx bxl-html5 ad1-logo'></i>
+                        <h1 class="ad1-percentage" id="g1">
+                            93%
+                        </h1>
+                    </div>
+                    <h4>HTTML5</h4>
+                </div>
+                <div class="outer-ad1">
+                    <div class="ad1">
+                        <i class='bx bxl-css3 ad1-logo'></i>
+                        <h1 class="ad1-percentage" id="g2">
+                            85%
+                        </h1>
+                    </div>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="outer-ad1">
+                    <div class="ad1">
+                        <i class='bx bxl-c-plus-plus ad1-logo'></i>
+                        <h1 class="ad1-percentage" id="g3">
+                            80%
+                        </h1>
+                    </div>
+                    <h4>C++</h4>
+                </div>
+                <div class="outer-ad1">
+                    <div class="ad1">
+                        <i class='bx bxl-python ad1-logo'></i>
+                        <h1 class="ad1-percentage" id="g4">
+                            60%
+                        </h1>
+                    </div>
+                    <h4>PYTHON</h4>
+                </div>
+                <div class="outer-ad1">
+                    <div class="ad1">
+                        <i class='bx bxl-javascript ad1-logo'></i>
+                        <h1 class="ad1-percentage" id="g5">
+                            20%
+                        </h1>
+                    </div>
+                    <h4>JAVASCRIPT</h4>
+                </div>
+                <div class="outer-ad1">
+                    <div class="ad1">
+                        <i class='bx bxl-c-plus-plus ad1-logo'></i></i>
+                        <h1 class="ad1-percentage" id="g6">
+                            80%
+                        </h1>
+                    </div>
+                    <h4>C++</h4>
+                </div>
+            </div>
+
+        </div>
+        <!-- End Skill page -->
+
+        <!-- Start Portfolio page -->
+        <div class="portfolio snap" id="portfolio">
+            <div class="portfolio-head">
+                <span class="portfolio-icon">
+                    <i class='bx bx-grid-vertical'></i>
+                    PORTFOLIO
+                </span>
+            </div>
+            <h1>Featured <span class="name" id="grn8">Projects</span></h1>
+            <iframe src="https://abhishek-cybrom.netlify.app/#up" frameborder="1"></iframe>
+        </div>
+        <!-- End Portfolio page -->
+
+        <!-- Start Testimonial page -->
+        <div class="testimonial snap" id="testimonial">
+            <div class="portfollio-head">
+                <span class="portfollio-icon">
+                    <i class='bx bx-comment-dots'></i>
+                    TESTIMONIAL
+                </span>
+            </div>
+            <h1>Trusted by <span class="name" id="grn9">Hundered Clients</span></h1>
+            <div class="comment">
+                <div class="comment-content">
+                    <img src="assest/image/amar.jpg" alt="">
+                    <div class="details">
+                        <h4>AMAR</h4>
+                        <h6>CEO OF
+                            <span class="company" id="g7">CYBROME</span>
+                        </h6>
+                    </div>
+                </div>
+                <h2 class="comment-text">"Abhishek - A Developer with the creativity, professional and master of
+                    code. Much more than
+                    what i'm expect. High quality
+                    product & flexiable price. Recommended!."</h2>
+            </div>
+
+        </div>
+        <!-- End Testimonial page -->
+
+        <!-- Start Contact page -->
+        <div class="contact snap" id="contact">
+            <div class="contact-head">
+                <span class="contact-icon">
+                    <i class='bx bx-envelope'></i>
+                    CONTACT
+                </span>
+            </div>
+            <h1>Let's Work <span class="name" id="grn10">Together!</span></h1>
+            <h2 class="email">amar.guptaabhi@gmail.com </h2>
+
+            <form action="#">
+                <div class="form-inp-upper">
+                    <div class="form-inp">
+                        <h6>FULL NAME <span class="required">*</span></h6>
+                        <input type="text" placeholder="Your Full Name" required>
+                    </div>
+                    <div class="form-inp">
+                        <h6>Email <span class="required">*</span></h6>
+                        <input type="email" placeholder="Your Email Address" required>
+                    </div>
+                </div>
+                <div class="form-inp-upper">
+                    <div class="form-inp">
+                        <h6>PHONE <span class="optional">(OPTIONAL)</span></h6>
+                        <input type="text" placeholder="Your Full Name">
+                    </div>
+                    <div class="form-inp">
+                        <h6>SUBJECT<span class="required">*</span></h6>
+                        <select name="" id="" required>
+                            <option value="">Select a Subject</option>
+                            <option value="">Subject1</option>
+                            <option value="">Subject2</option>
+                            <option value="">Subject3</option>
+                            <option value="">Subject4</option>
+                        </select>
+                    </div>
+
+                </div>
+                <div class="form-inp-bottem">
+                    <div class="form-inp">
+                        <h6>YOUR BUDGET<span class="optional">(OPTIONAL)</span></h6>
+                        <input type="number" placeholder="A Range Budget For Your Project">
+                    </div>
+                    <div class="form-inp">
+                        <h6>MESSAGE</h6>
+                        <textarea placeholder="Write your Message Here"></textarea>
+                    </div>
+
+                    <div class="form-inp">
+
+                        <abbr title="No file choosen">
+                            <label for="file">
+                                <i class='bx bx-cloud-upload'></i>
+                                <h5> ADD AN ATTACHMENT</h5>
+                            </label>
+                        </abbr>
+
+                        <input type="file" name="" id="file">
+                    </div>
+
+                    <div class="form-inp">
+                        <button class="send-message" type="submit" id="grn11">
+                            SEND MESSAGE
+                        </button>
+                    </div>
+
+                </div>
+            </form>
+        </div>
+        <!-- End Contact page -->
+
+
+    </div>
+    <!-- end main  -->
+
+    <!-- Start right sidbar -->
+    <div class="right-men-sec">
+        <a href="#home">
+
+            <i class='bx bx-home'></i>
+            <span>
+                <div class="cone"> </div>Home
+            </span>
+
+        </a>
+        <a href="#about">
+            <i class='bx bx-user'></i>
+            <span style="margin-top: 4em;">
+                <div class="cone"> </div> About
+            </span>
+
+        </a>
+        <a href="#resume">
+            <i class='bx bxs-briefcase'></i>
+            <span style="margin-top: 8em;">
+                <div class="cone"> </div>Resume
+            </span>
+
+        </a>
+        <a href="#service">
+            <i class='bx bx-poll'></i>
+            <span style="margin-top: 12em;">
+                <div class="cone"> </div>Service
+            </span>
+        </a>
+        <a href="#skill">
+            <i class='bx bxs-shapes'></i>
+            <span style="margin-top: 16em;">
+                <div class="cone"> </div>Skills
+            </span>
+        </a>
+        <a href="#portfolio">
+            <i class='bx bx-grid-vertical'></i>
+            <span style="margin-top: 20em;">
+                <div class="cone"> </div>Portfollio
+            </span>
+        </a>
+        <a href="#testimonial">
+            <i class='bx bx-comment-dots'></i>
+            <span style="margin-top: 24em;">
+                <div class="cone"> </div>Testimonials
+            </span>
+        </a>
+        <a href="#contact">
+            <i class='bx bx-envelope'></i>
+            <span style="margin-top: 28em;">
+                <div class="cone"> </div>Contact
+            </span>
+        </a>
+    </div>
+    <!-- End right sidebar -->
+    </div>
+
+
+
+</body>
+</html>
